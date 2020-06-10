@@ -96,18 +96,15 @@ class WelcomeScreenState extends State<WelcomeScreen>
               ),
             ),
           ),
-          SizedBox(
-            height: 20,
-          ),
-          Align(
-            alignment: Alignment.center,
+          Padding(
+            padding: const EdgeInsets.only(left: 32, top: 20, right: 32),
             child: PhysicalModel(
               elevation: 8,
               color: (phone.isNotEmpty && password.isNotEmpty)
                   ? tema.colorAqua
                   : Colors.grey,
               borderRadius: BorderRadius.all(Radius.circular(28.0)),
-              child: Container(
+              child: SizedBox(
                 key: _globalKey,
                 height: 48,
                 width: _width,

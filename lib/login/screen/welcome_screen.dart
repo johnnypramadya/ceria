@@ -194,14 +194,14 @@ class WelcomeScreenState extends State<WelcomeScreen>
             Text(
               'Clean Home',
               style: TextStyle(
-                fontSize: 28,
+                fontSize: 22,
                 color: Colors.white,
               ),
             ),
             Text(
               'Clean Life.',
               style: TextStyle(
-                fontSize: 24,
+                fontSize: 22,
                 color: Colors.white,
               ),
             ),
@@ -214,7 +214,7 @@ class WelcomeScreenState extends State<WelcomeScreen>
                 'Book Cleaners at the Comfort of you home.',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 18,
+                  fontSize: 16,
                   color: Colors.white,
                 ),
               ),
@@ -224,7 +224,7 @@ class WelcomeScreenState extends State<WelcomeScreen>
             ),
             SvgPicture.asset(
               'assets/images/login.svg',
-              height: 280,
+              height: 240,
             ),
             SizedBox(
               height: 20,
